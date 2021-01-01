@@ -1,1 +1,38 @@
 I got myself an old Cisco 2960 switch and while trying to set it up with a base configuration to use in my homelab, I realized that although I spent several months of my life with Cisco switches, I have pretty much forgotten everything... yeah. So I decided to note down all the relevant stuff - should I ever need to do this again.
+
+--- Factory Reset Switch ---
+
+Source: http://notthenetwork.me/blog/2013/05/28/reset-a-cisco-2960-switch-to-factory-default-settings/
+
+--- Activate Management over IP ---
+
+Source: https://www.dummies.com/programming/networking/cisco/cisco-networking-switch-management-interface-configuration/
+
+--- Activate Web UI ---
+
+Source: https://community.cisco.com/t5/switching/3850-webui-will-not-log-in/td-p/3015188
+
+--- Download Page for IOSs ---
+
+Source: https://software.cisco.com/download/home/279963472/type/280805680/release/15.0.2-SE11
+
+--- Update IOS Version ---
+
+Source: https://www.thegeekstuff.com/2011/06/upgrade-cisco-ios-image/
+
+--- Extracting a tar file ---
+
+Source: https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst2960/software/release/12-2_58_se/configuration/guide/2960scg/swiosfs.html
+
+--- Delete Folder Contents ---
+
+Source: https://www.geekshangout.com/deleting-all-the-contents-of-a-folder-on-a-cisco-ios-device/
+
+--- Enable SSH on a Cisco switch ---
+
+Source: https://www.thegeekstuff.com/2013/08/enable-ssh-cisco/
+
+--- Notes ---
+
+.bin file CLI file without web frontend
+.tar file is an ISO with web frontend
