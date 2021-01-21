@@ -1,6 +1,6 @@
 I got myself an old Cisco 2960 switch and while trying to set it up with a base configuration to use in my homelab, I realized that although I spent several months of my life with Cisco switches, I have pretty much forgotten everything... yeah. So I decided to note down all the relevant stuff - should I ever need to do this again.
 
-**+++ Factory Reset Switch +++
+**+++ Factory Reset Switch +++**
 
 Step1: Connect up your console cable and power on the switch, whilst holding down the “mode” button.
 
