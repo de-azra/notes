@@ -32,7 +32,7 @@ I got myself an old Cisco 2960 switch and while trying to set it up with a base 
 
 **Step7:** Give it a bit and connect via browser
 
-(Source: https://www.dummies.com/programming/networking/cisco/cisco-networking-switch-management-interface-configuration/)
+[Source](https://www.dummies.com/programming/networking/cisco/cisco-networking-switch-management-interface-configuration/)
 
 ## +++ Activate Web UI +++
 
@@ -42,7 +42,7 @@ For some reason the web ui doesn't just come up. But this helped
 
 **Step2:** switch# ip http authentication local
 
-(Source: https://community.cisco.com/t5/switching/3850-webui-will-not-log-in/td-p/3015188)
+[Source](https://community.cisco.com/t5/switching/3850-webui-will-not-log-in/td-p/3015188)
 
 ## +++ Enable SSH on a Cisco switch +++
 
@@ -58,18 +58,18 @@ For some reason the web ui doesn't just come up. But this helped
 
 **Step6:** switch()#exit
 
-(Source: https://www.thegeekstuff.com/2013/08/enable-ssh-cisco/)
+[Source](https://www.thegeekstuff.com/2013/08/enable-ssh-cisco/)
 
 ## +++ Update IOS Version +++
 
-Source: https://www.thegeekstuff.com/2011/06/upgrade-cisco-ios-image/
+[Source](https://www.thegeekstuff.com/2011/06/upgrade-cisco-ios-image/
 
 ## --- Extracting a tar file ---
 
-Source: https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst2960/software/release/12-2_58_se/configuration/guide/2960scg/swiosfs.html
+[Source](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst2960/software/release/12-2_58_se/configuration/guide/2960scg/swiosfs.html
 
 ## --- Notes ---
 
-Download Page for IOSs: https://software.cisco.com/download/home/279963472/type/280805680/release/15.0.2-SE11
-.bin file CLI file without web frontend
-.tar file is an ISO with web frontend
+[Download Page for IOSs](https://software.cisco.com/download/home/279963472/type/280805680/release/15.0.2-SE11)
+**.bin file** CLI file without web frontend
+**.tar file** is an ISO with web frontend
