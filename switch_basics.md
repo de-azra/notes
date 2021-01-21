@@ -6,7 +6,7 @@ I got myself an old Cisco 2960 switch and while trying to set it up with a base 
 
 **Step1:** Connect up your console cable and power on the switch, whilst holding down the “mode” button.
 
-**Step2:** *switch:flash_init
+**Step2:** *switch:flash_init*
 
 **Step3:** *switch:del flash:config.text
 
