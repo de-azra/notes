@@ -62,14 +62,15 @@ For some reason the web ui doesn't just come up. But this helped
 
 ## +++ Update IOS Version +++
 
-[Source](https://www.thegeekstuff.com/2011/06/upgrade-cisco-ios-image/
+[Source](https://www.thegeekstuff.com/2011/06/upgrade-cisco-ios-image/)
 
 ## --- Extracting a tar file ---
 
-[Source](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst2960/software/release/12-2_58_se/configuration/guide/2960scg/swiosfs.html
+[Source](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst2960/software/release/12-2_58_se/configuration/guide/2960scg/swiosfs.html)
 
 ## --- Notes ---
 
 [Download Page for IOSs](https://software.cisco.com/download/home/279963472/type/280805680/release/15.0.2-SE11)
+
 **.bin file** CLI file without web frontend
 **.tar file** is an ISO with web frontend
