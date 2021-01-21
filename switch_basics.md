@@ -6,29 +6,29 @@ I got myself an old Cisco 2960 switch and while trying to set it up with a base 
 
 **Step1:** Connect up your console cable and power on the switch, whilst holding down the “mode” button.
 
-**Step2:** switch:flash_init
+**Step2:** *switch:flash_init
 
-**Step3:** switch:del flash:config.text
+**Step3:** *switch:del flash:config.text
 
-**Step4:** switch:del flash:vlan.dat
+**Step4:** *switch:del flash:vlan.dat
 
-**Step5:** switch:boot
+**Step5:** *switch:boot
 
 [Source](http://notthenetwork.me/blog/2013/05/28/reset-a-cisco-2960-switch-to-factory-default-settings/)
 
 ## +++ Activate Management over IP +++
 
-**Step1:** switch>en
+**Step1:** *switch>en
 
-**Step2:** switch#conf t
+**Step2:** *switch#conf t
 
-**Step3:** switch#int vlan 1
+**Step3:** *switch#int vlan 1
 
-**Step4:** switch#ip address 10.0.0.123 255.255.255.0
+**Step4:** *switch#ip address 10.0.0.123 255.255.255.0
 
-**Step5:** switch#no shutdown
+**Step5:** *switch#no shutdown
 
-**Step6:** switch#end
+**Step6:** *switch#end
 
 **Step7:** Give it a bit and connect via browser
 
@@ -38,25 +38,25 @@ I got myself an old Cisco 2960 switch and while trying to set it up with a base 
 
 For some reason the web ui doesn't just come up. But this helped
 
-**Step1:** switch#no aaa new-model
+**Step1:** *switch#no aaa new-model
 
-**Step2:** switch# ip http authentication local
+**Step2:** *switch# ip http authentication local
 
 [Source](https://community.cisco.com/t5/switching/3850-webui-will-not-log-in/td-p/3015188)
 
 ## +++ Enable SSH on a Cisco switch +++
 
-**Step1:** switch#crypto key generate rsa
+**Step1:** *switch#crypto key generate rsa
 
-**Step2:** switch#line vty 0 4
+**Step2:** *switch#line vty 0 4
 
-**Step3:** switch()#transport input ssh
+**Step3:** *switch()#transport input ssh
 
-**Step4:** switch()#login local
+**Step4:** *switch()#login local
 
-**Step5:** switch()#password 7
+**Step5:** *switch()#password 7
 
-**Step6:** switch()#exit
+**Step6:** *switch()#exit
 
 [Source](https://www.thegeekstuff.com/2013/08/enable-ssh-cisco/)
 
