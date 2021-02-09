@@ -1,4 +1,4 @@
-#In case USB removable devices doesn't cooperate anymore#
+# In case USB removable devices doesn't cooperate anymore
 
 cmd > as Administrator > diskpart
 
