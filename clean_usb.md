@@ -32,6 +32,6 @@ DISKPART>format fs=exfat quick label="WinX"
 
 DISKPART>exit
 
-C:\>bootsect /nt60 X: *USB Stick drive letter
+C:\>bootsect /nt60 X: *USB Stick drive letter*
 
-C:\>xcopy Y:\*.* X:\ /E /H /F *Mounted ISO drive letter / USB Stick drive letter
+C:\>xcopy Y:\*.* X:\ /E /H /F *Mounted ISO drive letter / USB Stick drive letter*
