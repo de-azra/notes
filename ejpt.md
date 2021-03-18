@@ -5,7 +5,9 @@ Detailed scan of hosts:           nmap -sV -n -v -Pn -p- -T4 -iL <FILE> -A --ope
 
 Regular Directory enum:           gobuster dir -w /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt -u <URL>
 Authenticated Directory enum:     dirb <URL> -u <USER>:<PASSWORD>
-  
+
+Vulnscan:                         nmap --script vuln --script-args=unsafe=1 -iL <FILE>
+
 XSS:                              <script>alert('XSS')</script>
                                   <script>alert(document.cookie)</script>
                                   
