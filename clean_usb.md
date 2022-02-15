@@ -4,7 +4,7 @@ cmd > as Administrator > diskpart
 
 DISKPART>list disk
 
-DISKPART>select #
+DISKPART>select disk #
 
 DISKPART>clean
 
